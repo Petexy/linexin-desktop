@@ -1,7 +1,7 @@
 # Maintainer: Petexy <https://github.com/Petexy>
 
 pkgname=linexin-desktop
-pkgver=1.0.5.r
+pkgver=1.0.6.r
 pkgrel=1
 _currentdate=$(date +"%Y-%m-%d%H-%M-%S")
 pkgdesc='Linexin GNOME Desktop Full Experience'
@@ -9,6 +9,7 @@ url='https://github.com/Petexy'
 arch=(x86_64)
 license=('GPL-3.0')
 depends=(
+	power-profiles-daemon
 	colord-gtk-common
 	colord-gtk4
 	cups-pk-helper
