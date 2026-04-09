@@ -57,8 +57,6 @@ depends=(
 	gvfs-afc
 	gvfs-dnssd
 	gvfs-goa
-	gvfs-google
-	gvfs-gphoto2
 	gvfs-mtp
 	gvfs-nfs
 	gvfs-onedrive
