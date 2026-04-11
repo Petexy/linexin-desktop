@@ -589,8 +589,10 @@ const ApplicationVolumeSlider = GObject.registerClass(class ApplicationVolumeSli
         this._menuButton.y_expand = false;
         this._label = new St.Label({ natural_width: 0, track_hover: true, reactive: true });
         this._label.style_class = "QSAP-application-volume-slider-label";
-        this._label.clutter_text.line_wrap = true;
+        this._label.clutter_text.line_wrap = false;
+        this._label.clutter_text.ellipsize = Pango.EllipsizeMode.END;
         this._label.connect("notify::hover", () => {
+            this._label.clutter_text.line_wrap = this._label.hover ? true : false;
             this._label.clutter_text.ellipsize = this._label.hover ? Pango.EllipsizeMode.NONE : Pango.EllipsizeMode.END;
         });
         const n_desc_handler_id = stream.connect("notify::description", stream => this._update_label(stream));
@@ -631,7 +633,7 @@ const ApplicationVolumeSlider = GObject.registerClass(class ApplicationVolumeSli
         if (this._deviceItems.has(id))
             return;
         const device = this._lookupDevice(id);
-        if (!device)
+        if (!device || !device.port_available)
             return;
         const item = new PopupImageMenuItem("", device.get_gicon());
         // using the text from the output switcher of the master slider to allow compatibility with extensions
