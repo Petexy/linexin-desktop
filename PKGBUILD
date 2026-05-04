@@ -1,7 +1,7 @@
 # Maintainer: Petexy <https://github.com/Petexy>
 
 pkgname=linexin-desktop
-pkgver=1.1.1.r
+pkgver=1.1.2.r
 pkgrel=1
 pkgdesc='Linexin GNOME Desktop Full Experience'
 url='https://github.com/Petexy'
@@ -75,6 +75,7 @@ depends=(
 	'xdg-desktop-portal-gnome'
 	'xdg-user-dirs-gtk'
 	'yelp'
+	'power-profiles-daemon'
 )
 options=('!strip' '!debug')
 install="${pkgname}.install"

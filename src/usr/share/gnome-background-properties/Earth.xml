@@ -2,9 +2,9 @@
 <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
 <wallpapers>
   <wallpaper deleted="false">
-    <name>Croatia view for Linexin</name>
-    <filename>/usr/share/backgrounds/gnome/Croatia.jpg</filename>
-    <filename-dark>/usr/share/backgrounds/gnome/Croatia.jpg</filename-dark>
+    <name>Earth view for Linexin</name>
+    <filename>/usr/share/backgrounds/gnome/Earth.png</filename>
+    <filename-dark>/usr/share/backgrounds/gnome/Earth.png</filename-dark>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
