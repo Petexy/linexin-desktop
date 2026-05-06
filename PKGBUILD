@@ -1,7 +1,7 @@
 # Maintainer: Petexy <https://github.com/Petexy>
 
 pkgname=linexin-desktop
-pkgver=1.1.2.r
+pkgver=1.1.3.r
 pkgrel=1
 pkgdesc='Linexin GNOME Desktop Full Experience'
 url='https://github.com/Petexy'

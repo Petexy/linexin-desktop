@@ -3,8 +3,8 @@
 <wallpapers>
   <wallpaper deleted="false">
     <name>Moon view for Linexin</name>
-    <filename>/usr/share/backgrounds/gnome/Moon.jpg</filename>
-    <filename-dark>/usr/share/backgrounds/gnome/Moon.jpg</filename-dark>
+    <filename>/usr/share/backgrounds/gnome/Moon.png</filename>
+    <filename-dark>/usr/share/backgrounds/gnome/Moon.png</filename-dark>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
